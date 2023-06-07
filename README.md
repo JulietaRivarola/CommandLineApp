@@ -9,38 +9,60 @@ The application supports the following commands:
 ### `tch`
 
 Create a new empty file with the specified name and extension.
+
+
 tch [file name]
 
+
 Example:
+
 tch myfile.txt
 
 ### `mv`
 
 Rename a file or move a file to a different directory.
+
+
 mv [source] [destination]
 
 Examples:
+
+
 mv myfile.txt newfile.txt
+
+
 mv myfile.txt /path/to/destination/
 
 ### `ls`
 
 List the files and directories in the current directory.
+
+
 ls [-R]
+
 
 The `-R` modifier shows files and directories recursively in the current directory and its subdirectories.
 
+
 Examples:
+
+
 ls
+
+
 ls -R
 
 
 ### `cd`
 
 Change the current directory.
+
+
 cd [path]
 
 Example:
+
+
 cd /path/to/directory/
 
 ## Running the Application
