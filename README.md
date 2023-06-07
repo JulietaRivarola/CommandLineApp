@@ -65,6 +65,15 @@ Example:
 
 cd /path/to/directory/
 
+### `help`
+
+Display a list of available commands and their descriptions.
+
+Example:
+
+
+help
+
 ## Running the Application
 
 To run the application, follow these steps:
